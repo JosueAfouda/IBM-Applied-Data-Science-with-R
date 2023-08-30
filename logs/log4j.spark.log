@@ -1,0 +1,164 @@
+23/08/30 11:10:04.663 nioEventLoopGroup-2-2 INFO HiveConf: Found configuration file file:/C:/Users/josue/AppData/Local/spark/spark-3.3.0-bin-hadoop3/conf/hive-site.xml
+23/08/30 11:10:04.998 nioEventLoopGroup-2-2 INFO SparkContext: Running Spark version 3.3.0
+23/08/30 11:10:05.054 nioEventLoopGroup-2-2 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+23/08/30 11:10:05.179 nioEventLoopGroup-2-2 WARN SparkConf: Note that spark.local.dir will be overridden by the value set by the cluster manager (via SPARK_LOCAL_DIRS in mesos/standalone/kubernetes and LOCAL_DIRS in YARN).
+23/08/30 11:10:05.227 nioEventLoopGroup-2-2 INFO ResourceUtils: ==============================================================
+23/08/30 11:10:05.227 nioEventLoopGroup-2-2 INFO ResourceUtils: No custom resources configured for spark.driver.
+23/08/30 11:10:05.238 nioEventLoopGroup-2-2 INFO ResourceUtils: ==============================================================
+23/08/30 11:10:05.239 nioEventLoopGroup-2-2 INFO SparkContext: Submitted application: sparklyr
+23/08/30 11:10:05.287 nioEventLoopGroup-2-2 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+23/08/30 11:10:05.309 nioEventLoopGroup-2-2 INFO ResourceProfile: Limiting resource is cpu
+23/08/30 11:10:05.309 nioEventLoopGroup-2-2 INFO ResourceProfileManager: Added ResourceProfile id: 0
+23/08/30 11:10:05.475 nioEventLoopGroup-2-2 INFO SecurityManager: Changing view acls to: josue
+23/08/30 11:10:05.475 nioEventLoopGroup-2-2 INFO SecurityManager: Changing modify acls to: josue
+23/08/30 11:10:05.475 nioEventLoopGroup-2-2 INFO SecurityManager: Changing view acls groups to: 
+23/08/30 11:10:05.475 nioEventLoopGroup-2-2 INFO SecurityManager: Changing modify acls groups to: 
+23/08/30 11:10:05.475 nioEventLoopGroup-2-2 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(josue); groups with view permissions: Set(); users  with modify permissions: Set(josue); groups with modify permissions: Set()
+23/08/30 11:10:05.704 nioEventLoopGroup-2-2 INFO Utils: Successfully started service 'sparkDriver' on port 57435.
+23/08/30 11:10:05.773 nioEventLoopGroup-2-2 INFO SparkEnv: Registering MapOutputTracker
+23/08/30 11:10:05.859 nioEventLoopGroup-2-2 INFO SparkEnv: Registering BlockManagerMaster
+23/08/30 11:10:05.919 nioEventLoopGroup-2-2 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+23/08/30 11:10:05.919 nioEventLoopGroup-2-2 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+23/08/30 11:10:05.919 nioEventLoopGroup-2-2 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+23/08/30 11:10:05.986 nioEventLoopGroup-2-2 INFO DiskBlockManager: Created local directory at C:\Users\josue\AppData\Local\spark\spark-3.3.0-bin-hadoop3\tmp\local\blockmgr-e2fd3e3c-eca5-4297-bede-75c8e74895c1
+23/08/30 11:10:06.029 nioEventLoopGroup-2-2 INFO MemoryStore: MemoryStore started with capacity 912.3 MiB
+23/08/30 11:10:06.060 nioEventLoopGroup-2-2 INFO SparkEnv: Registering OutputCommitCoordinator
+23/08/30 11:10:06.060 nioEventLoopGroup-2-2 WARN Utils: The configured local directories are not expected to be URIs; however, got suspicious values [C:/Users/josue/AppData/Local/spark/spark-3.3.0-bin-hadoop3/tmp/local]. Please check your configured local directories.
+23/08/30 11:10:06.444 nioEventLoopGroup-2-2 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+23/08/30 11:10:06.511 nioEventLoopGroup-2-2 INFO SparkContext: Added JAR file:/C:/Users/josue/AppData/Local/R/win-library/4.3/sparklyr/java/sparklyr-master-2.12.jar at spark://kubernetes.docker.internal:57435/jars/sparklyr-master-2.12.jar with timestamp 1693386604982
+23/08/30 11:10:06.655 nioEventLoopGroup-2-2 INFO Executor: Starting executor ID driver on host kubernetes.docker.internal
+23/08/30 11:10:06.670 nioEventLoopGroup-2-2 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+23/08/30 11:10:06.685 nioEventLoopGroup-2-2 INFO Executor: Fetching spark://kubernetes.docker.internal:57435/jars/sparklyr-master-2.12.jar with timestamp 1693386604982
+23/08/30 11:10:06.780 nioEventLoopGroup-2-2 INFO TransportClientFactory: Successfully created connection to kubernetes.docker.internal/127.0.0.1:57435 after 53 ms (0 ms spent in bootstraps)
+23/08/30 11:10:06.793 nioEventLoopGroup-2-2 INFO Utils: Fetching spark://kubernetes.docker.internal:57435/jars/sparklyr-master-2.12.jar to C:\Users\josue\AppData\Local\spark\spark-3.3.0-bin-hadoop3\tmp\local\spark-4af64410-cb56-41ee-93e8-9b3588a84150\userFiles-6daa8df5-c888-4ec4-99d5-ca0c41424845\fetchFileTemp4178009353332300992.tmp
+23/08/30 11:10:07.586 nioEventLoopGroup-2-2 INFO Executor: Adding file:/C:/Users/josue/AppData/Local/spark/spark-3.3.0-bin-hadoop3/tmp/local/spark-4af64410-cb56-41ee-93e8-9b3588a84150/userFiles-6daa8df5-c888-4ec4-99d5-ca0c41424845/sparklyr-master-2.12.jar to class loader
+23/08/30 11:10:07.633 nioEventLoopGroup-2-2 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 57483.
+23/08/30 11:10:07.633 nioEventLoopGroup-2-2 INFO NettyBlockTransferService: Server created on kubernetes.docker.internal:57483
+23/08/30 11:10:07.633 nioEventLoopGroup-2-2 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+23/08/30 11:10:07.649 nioEventLoopGroup-2-2 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, kubernetes.docker.internal, 57483, None)
+23/08/30 11:10:07.649 dispatcher-BlockManagerMaster INFO BlockManagerMasterEndpoint: Registering block manager kubernetes.docker.internal:57483 with 912.3 MiB RAM, BlockManagerId(driver, kubernetes.docker.internal, 57483, None)
+23/08/30 11:10:07.665 nioEventLoopGroup-2-2 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, kubernetes.docker.internal, 57483, None)
+23/08/30 11:10:07.665 nioEventLoopGroup-2-2 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, kubernetes.docker.internal, 57483, None)
+23/08/30 11:10:08.169 nioEventLoopGroup-2-2 INFO SharedState: Setting hive.metastore.warehouse.dir ('C:/Users/josue/AppData/Local/spark/spark-3.3.0-bin-hadoop3/tmp/hive') to the value of spark.sql.warehouse.dir.
+23/08/30 11:10:08.184 nioEventLoopGroup-2-2 INFO SharedState: Warehouse path is 'file:/C:/Users/josue/AppData/Local/spark/spark-3.3.0-bin-hadoop3/tmp/hive'.
+23/08/30 11:10:14.639 nioEventLoopGroup-2-2 INFO HiveUtils: Initializing HiveMetastoreConnection version 2.3.9 using Spark classes.
+23/08/30 11:10:14.839 nioEventLoopGroup-2-2 INFO HiveConf: Found configuration file file:/C:/Users/josue/AppData/Local/spark/spark-3.3.0-bin-hadoop3/conf/hive-site.xml
+23/08/30 11:10:15.280 nioEventLoopGroup-2-2 INFO HiveClientImpl: Warehouse location for Hive client (version 2.3.9) is file:/C:/Users/josue/AppData/Local/spark/spark-3.3.0-bin-hadoop3/tmp/hive
+23/08/30 11:10:15.664 nioEventLoopGroup-2-2 WARN HiveConf: HiveConf of name hive.stats.jdbc.timeout does not exist
+23/08/30 11:10:15.665 nioEventLoopGroup-2-2 WARN HiveConf: HiveConf of name hive.stats.retries.wait does not exist
+23/08/30 11:10:15.666 nioEventLoopGroup-2-2 INFO HiveMetaStore: 0: Opening raw store with implementation class:org.apache.hadoop.hive.metastore.ObjectStore
+23/08/30 11:10:15.738 nioEventLoopGroup-2-2 INFO ObjectStore: ObjectStore, initialize called
+23/08/30 11:10:15.971 nioEventLoopGroup-2-2 INFO Persistence: Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+23/08/30 11:10:15.987 nioEventLoopGroup-2-2 INFO Persistence: Property datanucleus.cache.level2 unknown - will be ignored
+23/08/30 11:10:18.350 nioEventLoopGroup-2-2 INFO ObjectStore: Setting MetaStore object pin classes with hive.metastore.cache.pinobjtypes="Table,StorageDescriptor,SerDeInfo,Partition,Database,Type,FieldSchema,Order"
+23/08/30 11:10:21.158 nioEventLoopGroup-2-2 INFO MetaStoreDirectSql: Using direct SQL, underlying DB is DERBY
+23/08/30 11:10:21.177 nioEventLoopGroup-2-2 INFO ObjectStore: Initialized ObjectStore
+23/08/30 11:10:21.289 nioEventLoopGroup-2-2 WARN ObjectStore: Version information not found in metastore. hive.metastore.schema.verification is not enabled so recording the schema version 2.3.0
+23/08/30 11:10:21.289 nioEventLoopGroup-2-2 WARN ObjectStore: setMetaStoreSchemaVersion called but recording version is disabled: version = 2.3.0, comment = Set by MetaStore UNKNOWN@192.168.1.6
+23/08/30 11:10:21.326 nioEventLoopGroup-2-2 WARN ObjectStore: Failed to get database default, returning NoSuchObjectException
+23/08/30 11:10:21.607 nioEventLoopGroup-2-2 INFO HiveMetaStore: Added admin role in metastore
+23/08/30 11:10:21.623 nioEventLoopGroup-2-2 INFO HiveMetaStore: Added public role in metastore
+23/08/30 11:10:21.688 nioEventLoopGroup-2-2 INFO HiveMetaStore: No user is added in admin role, since config is empty
+23/08/30 11:10:21.879 nioEventLoopGroup-2-2 INFO HiveMetaStore: 0: get_database: default
+23/08/30 11:10:21.883 nioEventLoopGroup-2-2 INFO audit: ugi=josue	ip=unknown-ip-addr	cmd=get_database: default	
+23/08/30 11:10:21.926 nioEventLoopGroup-2-2 INFO HiveMetaStore: 0: get_database: global_temp
+23/08/30 11:10:21.926 nioEventLoopGroup-2-2 INFO audit: ugi=josue	ip=unknown-ip-addr	cmd=get_database: global_temp	
+23/08/30 11:10:21.928 nioEventLoopGroup-2-2 WARN ObjectStore: Failed to get database global_temp, returning NoSuchObjectException
+23/08/30 11:10:21.929 nioEventLoopGroup-2-2 INFO HiveMetaStore: 0: get_database: default
+23/08/30 11:10:21.929 nioEventLoopGroup-2-2 INFO audit: ugi=josue	ip=unknown-ip-addr	cmd=get_database: default	
+23/08/30 11:10:21.932 nioEventLoopGroup-2-2 INFO HiveMetaStore: 0: get_database: default
+23/08/30 11:10:21.932 nioEventLoopGroup-2-2 INFO audit: ugi=josue	ip=unknown-ip-addr	cmd=get_database: default	
+23/08/30 11:10:21.935 nioEventLoopGroup-2-2 INFO HiveMetaStore: 0: get_tables: db=default pat=*
+23/08/30 11:10:21.935 nioEventLoopGroup-2-2 INFO audit: ugi=josue	ip=unknown-ip-addr	cmd=get_tables: db=default pat=*	
+23/08/30 11:10:22.603 nioEventLoopGroup-2-2 INFO HiveMetaStore: 0: get_database: default
+23/08/30 11:10:22.603 nioEventLoopGroup-2-2 INFO audit: ugi=josue	ip=unknown-ip-addr	cmd=get_database: default	
+23/08/30 11:10:22.615 nioEventLoopGroup-2-2 INFO HiveMetaStore: 0: get_database: default
+23/08/30 11:10:22.615 nioEventLoopGroup-2-2 INFO audit: ugi=josue	ip=unknown-ip-addr	cmd=get_database: default	
+23/08/30 11:10:22.615 nioEventLoopGroup-2-2 INFO HiveMetaStore: 0: get_tables: db=default pat=*
+23/08/30 11:10:22.615 nioEventLoopGroup-2-2 INFO audit: ugi=josue	ip=unknown-ip-addr	cmd=get_tables: db=default pat=*	
+23/08/30 11:10:24.220 executor-heartbeater WARN ProcfsMetricsGetter: Exception when trying to compute pagesize, as a result reporting of ProcessTree metrics is stopped
+23/08/30 11:11:23.419 nioEventLoopGroup-2-2 INFO HiveMetaStore: 0: get_database: default
+23/08/30 11:11:23.419 nioEventLoopGroup-2-2 INFO audit: ugi=josue	ip=unknown-ip-addr	cmd=get_database: default	
+23/08/30 11:11:23.421 nioEventLoopGroup-2-2 INFO HiveMetaStore: 0: get_database: default
+23/08/30 11:11:23.422 nioEventLoopGroup-2-2 INFO audit: ugi=josue	ip=unknown-ip-addr	cmd=get_database: default	
+23/08/30 11:11:23.424 nioEventLoopGroup-2-2 INFO HiveMetaStore: 0: get_tables: db=default pat=*
+23/08/30 11:11:23.424 nioEventLoopGroup-2-2 INFO audit: ugi=josue	ip=unknown-ip-addr	cmd=get_tables: db=default pat=*	
+23/08/30 11:11:24.333 nioEventLoopGroup-2-2 INFO CodeGenerator: Code generated in 269.2376 ms
+23/08/30 11:11:24.558 nioEventLoopGroup-2-2 INFO SparkContext: Starting job: collect at utils.scala:26
+23/08/30 11:11:24.573 nioEventLoopGroup-2-2 INFO DAGScheduler: Job 0 finished: collect at utils.scala:26, took 0,008504 s
+23/08/30 11:11:25.459 nioEventLoopGroup-2-2 INFO CodeGenerator: Code generated in 12.9173 ms
+23/08/30 11:11:25.492 nioEventLoopGroup-2-2 INFO SparkContext: Starting job: collect at utils.scala:26
+23/08/30 11:11:25.516 dag-scheduler-event-loop INFO DAGScheduler: Got job 1 (collect at utils.scala:26) with 1 output partitions
+23/08/30 11:11:25.516 dag-scheduler-event-loop INFO DAGScheduler: Final stage: ResultStage 0 (collect at utils.scala:26)
+23/08/30 11:11:25.516 dag-scheduler-event-loop INFO DAGScheduler: Parents of final stage: List()
+23/08/30 11:11:25.516 dag-scheduler-event-loop INFO DAGScheduler: Missing parents: List()
+23/08/30 11:11:25.528 dag-scheduler-event-loop INFO DAGScheduler: Submitting ResultStage 0 (MapPartitionsRDD[6] at collect at utils.scala:26), which has no missing parents
+23/08/30 11:11:25.640 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 7.4 KiB, free 912.3 MiB)
+23/08/30 11:11:25.716 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 3.7 KiB, free 912.3 MiB)
+23/08/30 11:11:25.720 dispatcher-BlockManagerMaster INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on kubernetes.docker.internal:57483 (size: 3.7 KiB, free: 912.3 MiB)
+23/08/30 11:11:25.720 dag-scheduler-event-loop INFO SparkContext: Created broadcast 0 from broadcast at DAGScheduler.scala:1513
+23/08/30 11:11:25.752 dag-scheduler-event-loop INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[6] at collect at utils.scala:26) (first 15 tasks are for partitions Vector(0))
+23/08/30 11:11:25.752 dag-scheduler-event-loop INFO TaskSchedulerImpl: Adding task set 0.0 with 1 tasks resource profile 0
+23/08/30 11:11:25.861 dispatcher-event-loop-6 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0) (kubernetes.docker.internal, executor driver, partition 0, PROCESS_LOCAL, 4661 bytes) taskResourceAssignments Map()
+23/08/30 11:11:25.893 Executor task launch worker for task 0.0 in stage 0.0 (TID 0) INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+23/08/30 11:11:26.474 Executor task launch worker for task 0.0 in stage 0.0 (TID 0) INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 1448 bytes result sent to driver
+23/08/30 11:11:26.491 task-result-getter-0 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 660 ms on kubernetes.docker.internal (executor driver) (1/1)
+23/08/30 11:11:26.491 task-result-getter-0 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+23/08/30 11:11:26.507 dag-scheduler-event-loop INFO DAGScheduler: ResultStage 0 (collect at utils.scala:26) finished in 0,954 s
+23/08/30 11:11:26.517 dag-scheduler-event-loop INFO DAGScheduler: Job 1 is finished. Cancelling potential speculative or zombie tasks for this job
+23/08/30 11:11:26.517 dag-scheduler-event-loop INFO TaskSchedulerImpl: Killing all running tasks in stage 0: Stage finished
+23/08/30 11:11:26.517 nioEventLoopGroup-2-2 INFO DAGScheduler: Job 1 finished: collect at utils.scala:26, took 1,024954 s
+23/08/30 11:11:26.580 nioEventLoopGroup-2-2 INFO CodeGenerator: Code generated in 28.2217 ms
+23/08/30 11:11:27.010 nioEventLoopGroup-2-2 INFO SparkContext: Starting job: collect at utils.scala:26
+23/08/30 11:11:27.011 dag-scheduler-event-loop INFO DAGScheduler: Got job 2 (collect at utils.scala:26) with 1 output partitions
+23/08/30 11:11:27.011 dag-scheduler-event-loop INFO DAGScheduler: Final stage: ResultStage 1 (collect at utils.scala:26)
+23/08/30 11:11:27.011 dag-scheduler-event-loop INFO DAGScheduler: Parents of final stage: List()
+23/08/30 11:11:27.012 dag-scheduler-event-loop INFO DAGScheduler: Missing parents: List()
+23/08/30 11:11:27.013 dag-scheduler-event-loop INFO DAGScheduler: Submitting ResultStage 1 (MapPartitionsRDD[8] at collect at utils.scala:26), which has no missing parents
+23/08/30 11:11:27.017 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 7.4 KiB, free 912.3 MiB)
+23/08/30 11:11:27.020 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 3.7 KiB, free 912.3 MiB)
+23/08/30 11:11:27.021 dispatcher-BlockManagerMaster INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on kubernetes.docker.internal:57483 (size: 3.7 KiB, free: 912.3 MiB)
+23/08/30 11:11:27.022 dag-scheduler-event-loop INFO SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:1513
+23/08/30 11:11:27.023 dag-scheduler-event-loop INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 1 (MapPartitionsRDD[8] at collect at utils.scala:26) (first 15 tasks are for partitions Vector(0))
+23/08/30 11:11:27.023 dag-scheduler-event-loop INFO TaskSchedulerImpl: Adding task set 1.0 with 1 tasks resource profile 0
+23/08/30 11:11:27.025 dispatcher-event-loop-3 INFO TaskSetManager: Starting task 0.0 in stage 1.0 (TID 1) (kubernetes.docker.internal, executor driver, partition 0, PROCESS_LOCAL, 4661 bytes) taskResourceAssignments Map()
+23/08/30 11:11:27.026 Executor task launch worker for task 0.0 in stage 1.0 (TID 1) INFO Executor: Running task 0.0 in stage 1.0 (TID 1)
+23/08/30 11:11:27.031 Executor task launch worker for task 0.0 in stage 1.0 (TID 1) INFO Executor: Finished task 0.0 in stage 1.0 (TID 1). 1319 bytes result sent to driver
+23/08/30 11:11:27.031 task-result-getter-1 INFO TaskSetManager: Finished task 0.0 in stage 1.0 (TID 1) in 6 ms on kubernetes.docker.internal (executor driver) (1/1)
+23/08/30 11:11:27.031 task-result-getter-1 INFO TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool 
+23/08/30 11:11:27.031 dag-scheduler-event-loop INFO DAGScheduler: ResultStage 1 (collect at utils.scala:26) finished in 0,016 s
+23/08/30 11:11:27.031 dag-scheduler-event-loop INFO DAGScheduler: Job 2 is finished. Cancelling potential speculative or zombie tasks for this job
+23/08/30 11:11:27.031 dag-scheduler-event-loop INFO TaskSchedulerImpl: Killing all running tasks in stage 1: Stage finished
+23/08/30 11:11:27.031 nioEventLoopGroup-2-2 INFO DAGScheduler: Job 2 finished: collect at utils.scala:26, took 0,026944 s
+23/08/30 11:11:27.197 nioEventLoopGroup-2-2 INFO HiveMetaStore: 0: get_database: default
+23/08/30 11:11:27.197 nioEventLoopGroup-2-2 INFO audit: ugi=josue	ip=unknown-ip-addr	cmd=get_database: default	
+23/08/30 11:11:27.216 nioEventLoopGroup-2-2 INFO HiveMetaStore: 0: get_database: default
+23/08/30 11:11:27.217 nioEventLoopGroup-2-2 INFO audit: ugi=josue	ip=unknown-ip-addr	cmd=get_database: default	
+23/08/30 11:11:27.218 nioEventLoopGroup-2-2 INFO HiveMetaStore: 0: get_tables: db=default pat=*
+23/08/30 11:11:27.219 nioEventLoopGroup-2-2 INFO audit: ugi=josue	ip=unknown-ip-addr	cmd=get_tables: db=default pat=*	
+23/08/30 11:11:27.327 nioEventLoopGroup-2-2 INFO CodeGenerator: Code generated in 67.3262 ms
+23/08/30 11:11:27.395 nioEventLoopGroup-2-2 INFO CodeGenerator: Code generated in 18.4559 ms
+23/08/30 11:11:27.439 nioEventLoopGroup-2-2 INFO CodeGenerator: Code generated in 13.5955 ms
+23/08/30 11:11:41.066 nioEventLoopGroup-2-2 INFO HiveMetaStore: 0: get_database: default
+23/08/30 11:11:41.066 nioEventLoopGroup-2-2 INFO audit: ugi=josue	ip=unknown-ip-addr	cmd=get_database: default	
+23/08/30 11:11:41.082 nioEventLoopGroup-2-2 INFO HiveMetaStore: 0: get_database: default
+23/08/30 11:11:41.082 nioEventLoopGroup-2-2 INFO audit: ugi=josue	ip=unknown-ip-addr	cmd=get_database: default	
+23/08/30 11:11:41.082 nioEventLoopGroup-2-2 INFO HiveMetaStore: 0: get_function: default.format
+23/08/30 11:11:41.082 nioEventLoopGroup-2-2 INFO audit: ugi=josue	ip=unknown-ip-addr	cmd=get_function: default.format	
+23/08/30 11:12:17.027 nioEventLoopGroup-2-2 INFO HiveMetaStore: 0: get_database: default
+23/08/30 11:12:17.028 nioEventLoopGroup-2-2 INFO audit: ugi=josue	ip=unknown-ip-addr	cmd=get_database: default	
+23/08/30 11:12:17.029 nioEventLoopGroup-2-2 INFO HiveMetaStore: 0: get_database: default
+23/08/30 11:12:17.029 nioEventLoopGroup-2-2 INFO audit: ugi=josue	ip=unknown-ip-addr	cmd=get_database: default	
+23/08/30 11:12:17.029 nioEventLoopGroup-2-2 INFO HiveMetaStore: 0: get_function: default.format
+23/08/30 11:12:17.029 nioEventLoopGroup-2-2 INFO audit: ugi=josue	ip=unknown-ip-addr	cmd=get_function: default.format	
+23/08/30 11:13:19.360 shutdown-hook-0 INFO SparkContext: Invoking stop() from shutdown hook
+23/08/30 11:13:19.455 shutdown-hook-0 INFO SparkUI: Stopped Spark web UI at http://kubernetes.docker.internal:4040
+23/08/30 11:13:19.504 dispatcher-event-loop-1 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+23/08/30 11:13:19.529 shutdown-hook-0 INFO MemoryStore: MemoryStore cleared
+23/08/30 11:13:19.530 shutdown-hook-0 INFO BlockManager: BlockManager stopped
+23/08/30 11:13:19.545 shutdown-hook-0 INFO BlockManagerMaster: BlockManagerMaster stopped
+23/08/30 11:13:19.545 dispatcher-event-loop-7 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+23/08/30 11:13:19.593 shutdown-hook-0 INFO SparkContext: Successfully stopped SparkContext
+23/08/30 11:13:19.593 shutdown-hook-0 INFO ShutdownHookManager: Shutdown hook called
+23/08/30 11:13:19.593 shutdown-hook-0 INFO ShutdownHookManager: Deleting directory C:\Users\josue\AppData\Local\spark\spark-3.3.0-bin-hadoop3\tmp\local\spark-4af64410-cb56-41ee-93e8-9b3588a84150
+23/08/30 11:13:19.611 shutdown-hook-0 INFO ShutdownHookManager: Deleting directory C:\Users\josue\AppData\Local\Temp\spark-a5095bd3-4e7f-4049-9945-6369aa8d7732

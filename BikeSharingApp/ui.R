@@ -38,6 +38,7 @@ shinyUI(
                 # select drop-down list to select city
                 selectInput("selected_city", "Select a City", choices = cities_df$CITY_ASCII),
                 # Add more UI elements as needed
+                plotOutput("temperature_trend_plot", height = 400)
               )
             )
   )

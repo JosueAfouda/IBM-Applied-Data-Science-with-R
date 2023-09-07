@@ -120,4 +120,25 @@ shinyServer(function(input, output){
       mutate(BIKE_PREDICTION_LEVEL = calculate_bike_prediction_level(BIKE_PREDICTION))
   })
   
+  selected_city_data <- reactive({
+    filtered_data() %>%
+      mutate(HOUR = as.POSIXlt(FORECASTDATETIME)$hour)
+  })
+  
+  output$temperature_trend_plot <- renderPlot({
+    
+    if (!is.null(selected_city_data())) {
+      # Plot temperature trend for the selected city
+      ggplot(selected_city_data(), aes(x = HOUR, y = TEMPERATURE)) +
+        geom_line() +
+        geom_point() +
+        geom_text(aes(label = TEMPERATURE), hjust = 1.2, vjust = 0.5) +
+        labs(title = "Temperature Trend for the Next 5 Days",
+             #x = "Date and Time",
+             x = "Hour",
+             y = "Temperature (°C)") +
+        theme_minimal()
+    }
+  })
+  
 })

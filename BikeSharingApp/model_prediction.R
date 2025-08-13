@@ -1,8 +1,10 @@
-require(tidyverse)
-require(httr)
+library(tidyverse)
+library(httr)
 
 
 # Get weather forecast data by cities
+
+
 get_weather_forecaset_by_cities <- function(city_names){
   # Create some empty vectors to hold data temporarily
   city <- c()
